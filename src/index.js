@@ -16,7 +16,7 @@ const init = (gameQuestions) => {
     gameTime={gameTime}
     questions={gameQuestions}
   />,
-  document.querySelector(`.main`));
+  document.querySelector(`#root`));
 };
 
 init(questions);
